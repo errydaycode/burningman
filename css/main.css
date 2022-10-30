@@ -24,6 +24,9 @@ ul, li {
 }
 .header {
     background: url('../img/header-bg.jpg') no-repeat center top / cover;
+    padding-top: 57px;
+    color: #fff;
+    padding-bottom: 322px
 }
 
 .logo {
@@ -58,4 +61,32 @@ header a{
     display: flex;
     align-items: center;
     padding-top: 57px;
+}
+
+.btn {
+    display: block;
+    font-size: 17px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    padding: 17px 47px;
+    border: 1px solid #fff;
+    width: 238px;
+    transition: all 0.5s ease;
+    text-decoration: none;
+}
+.offer {
+    text-transform: uppercase;
+    margin-top: 216px;
+}
+
+.offer h1 {
+    font-size: 100px;
+    margin-bottom: 19px;
+    margin-top: -9px;
+    letter-spacing: 0.02em
+}
+
+.offer p {
+    font-size: 30px;
+    letter-spacing: 0.1em;
 }
